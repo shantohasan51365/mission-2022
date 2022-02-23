@@ -1,0 +1,46 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 5%;
+}
+h1{
+    font-size: 50px;
+}
+.orange-color{
+    color: orange;
+}
+.link-button{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px   40px;
+    font-weight: 700;
+    background-image: linear-gradient(red,orange);
+    color: white;
+    border-radius: 5px;
+}
+.half-width img{
+    width: 80%;
+    margin-left: 10%;
+}
+.stay-focus{
+    display: flex;
+    margin: 0;
+}
+#mission{
+    text-align: center;
+}
+.one-third{
+    width: 33%;
+    background-color:rgb(223, 235, 235);
+    padding: 20px   20px;
+    border-radius: 15px;
+}
+.my-mission{
+    display: flex;
+}
+.one-third  img{
+    width: 25%;
+    display: flex;
+}
+.second-part{
+    display: flex;
+}
