@@ -1,6 +1,8 @@
 body{
     font-family: 'Poppins', sans-serif;
+font-family: 'Redressed', cursive;
     margin: 5%;
+    background-color:whitesmoke;
 }
 h1{
     font-size: 50px;
@@ -11,9 +13,9 @@ h1{
 .link-button{
     font-size: 20px;
     text-decoration: none;
-    padding: 10px   40px;
-    font-weight: 700;
-    background-image: linear-gradient(red,orange);
+    padding: 10px   30px;
+    font-weight: 400;
+    background-image: linear-gradient(orangered,red);
     color: white;
     border-radius: 5px;
 }
@@ -43,4 +45,63 @@ h1{
 }
 .second-part{
     display: flex;
+}
+.third-part{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 300px;
+    display: flex;
+    width: 100%;
+    margin-right: 5%;
+    margin-top: 10%;
+}
+.fourth-part{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 200px;
+    display: flex;
+    width: 100%;
+    margin-right: 5%;
+    margin-top: 10%;
+}
+.footer{
+    background-color:black;
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.footer span{
+    color: orangered;
+}
+#mission    span{
+    color: orangered;
+}
+.bonus-part input{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px   15px;
+    font-weight: 400;
+    background-image: linear-gradient(red,orangered);
+    color: white;
+    border-radius: 5px;
+}
+.head{
+    border-left: 5px solid;
+    border-image: linear-gradient(orangered,red);
+    border-image-slice: 1;
+}
+#Mission{
+    background-color:rgb(241, 236, 190);
+    margin-right: 5%;
+}
+#goal{
+    background-color:lightgray;
+}
+#vission{
+    background-color: rgb(235, 203, 208);
+    margin-right: 5%;
 }
